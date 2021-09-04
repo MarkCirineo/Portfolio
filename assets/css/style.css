@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    display: inline;
+    padding-right: 10px;
+}
