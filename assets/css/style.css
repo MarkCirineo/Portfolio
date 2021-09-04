@@ -5,6 +5,14 @@
     --dark-gray: #353535;
 }
 
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--botticelli);
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -14,11 +22,11 @@ header {
 }
 
 h1 {
-    font-size: 225%;
+    font-size: 245%;
 }
 
 header h1 {
-    padding: 7px 5px 7px 15px;
+    padding: 8px 5px 8px 15px;
     background-color: var(--light-purple);
     color: var(--dark-gray);
 }
@@ -36,4 +44,34 @@ header nav ul li {
     height: 50px;
     line-height: 50px;
     border-bottom: var(--light-purple) solid 2px;
+    font-size: 110%;
+}
+
+figure {
+    /* placeholder values */
+    background-color: gray;
+    width: 100%;
+    height: 150px;
+}
+
+h2 {
+    font-size: 240%;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me h2 {
+    flex: 1 0 25%;
+    text-align: right;
+    padding: 10px;
+    color: var(--purple);
+    border-right: solid var(--purple) 4px;
+}
+
+.about-me p {
+    flex: 1 0 75%;
+    padding: 10px 25px;
 }
