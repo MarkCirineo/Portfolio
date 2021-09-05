@@ -196,6 +196,14 @@ h3 {
         flex-direction: column;
     }
 
-    
+    .contact-me h2, .about-me h2, .work h2 {
+        text-align: center;
+        border-bottom: solid var(--purple) 4px;
+        border-right: 0;
+        margin: 0 auto 10px auto;
+    }
 
+    main {
+        padding-right: 0;
+    }
 }
