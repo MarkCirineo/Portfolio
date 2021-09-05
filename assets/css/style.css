@@ -142,7 +142,7 @@ main {
 
 .first-work-title {
     height: 46%;
-    width: 48%;
+    width: 70%;
     background-color: var(--cararra);
     margin: 88px auto;
     box-shadow: 10px 10px 10px var(--electric-violet);
@@ -151,7 +151,7 @@ main {
 
 .other-work-title {
     height: 46%;
-    width: 48%;
+    width: 70%;
     background-color: var(--cararra);
     margin: 83px auto;
     box-shadow: 10px 10px 10px var(--electric-violet);
@@ -176,6 +176,9 @@ main {
 h3 {
     font-size: 175%;
     color: var(--purple);
+    padding-bottom: 1px;
+    border-bottom: solid var(--purple) 4px;
+    display: inline;
 }
 
 .contacts {
@@ -234,7 +237,15 @@ h3 {
         flex: 1 0 100%;
     }
 
-    .first-work-title, .other-work-title {
-        padding: 32px 0;
+    .first-work-title {
+        padding: 30px 0;
+    }
+
+    .other-work-title {
+        padding: 40px 0;
+    }
+
+    h3 {
+        line-height: 1.5;
     }
 }
