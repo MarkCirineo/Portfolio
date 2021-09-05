@@ -37,6 +37,11 @@ header nav ul {
     margin-right: 40px;
 }
 
+header nav ul li a {
+    text-decoration: none;
+    color: var(--light-purple);
+}
+
 header nav ul li {
     display: inline;
     padding-right: 5px;
