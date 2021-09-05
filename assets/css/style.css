@@ -171,6 +171,7 @@ h3 {
 
 .contacts ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -213,4 +214,14 @@ h3 {
         margin-top: 340px;
     }
 
+}
+
+@media screen and (max-width: 650px) {
+    .contact-me ul li {
+        flex: 1 0 100%;
+    }
+
+    .first-work-title, .other-work-title {
+        padding: 32px 0;
+    }
 }
