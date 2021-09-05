@@ -93,7 +93,7 @@ main {
 }
 
 .first-work, .other-work {
-    height: 50%;
+    height: 325px;
 }
 
 .first-item {
@@ -110,8 +110,6 @@ main {
 
 .other-items {
     flex: 1 0 50%;
-    /* background-color: var(--dark-gray); */
-    /* margin: 10px; */
 }
 
 .item {
@@ -206,4 +204,13 @@ h3 {
     main {
         padding-right: 0;
     }
+
+    .other-items {
+        flex: 1 0 100%;
+    }
+    
+    .contact-me {
+        margin-top: 340px;
+    }
+
 }
