@@ -3,6 +3,8 @@
     --purple: #660fa0;
     --light-purple: #c6b5fa;
     --dark-gray: #353535;
+    --cararra: #e7e7e0;
+    --electric-violet: #8b16e3;
 }
 
 html {
@@ -86,7 +88,7 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1 0 80%;
-    height: 500px;
+    height: 650px;
 }
 
 .first-work, .other-work {
@@ -94,7 +96,6 @@ main {
 }
 
 .first-item {
-    /* margin: 5px; */
     background-color: var(--light-purple);
     height: 100%;
     margin: 0 20px;
@@ -108,20 +109,65 @@ main {
 
 .other-items {
     flex: 1 0 50%;
-    /* background-color: var(--light-purple); */
+    /* background-color: var(--dark-gray); */
     /* margin: 10px; */
 }
 
 .item {
     margin: 20px 20px 0 20px;
     background-color: var(--light-purple);
-    height: 230px;
+    height: 305px;
+}
+
+.first-item, .item {
+    border: 3px solid var(--electric-violet);
+    transition: box-shadow .2s ease-in-out;
+}
+
+.first-item:hover, .item:hover {
+    box-shadow: inset 0px 0px 10px var(--purple), 0 0 15px var(--purple);
+}
+
+.first-work-title {
+    height: 46%;
+    width: 48%;
+    background-color: var(--cararra);
+    margin: 88px auto;
+    box-shadow: 10px 10px 10px var(--electric-violet);
+    transition: box-shadow .1s ease-in-out;
+}
+
+.other-work-title {
+    height: 46%;
+    width: 48%;
+    background-color: var(--cararra);
+    margin: 83px auto;
+    box-shadow: 10px 10px 10px var(--electric-violet);
+    transition: box-shadow .1s ease-in-out;
+}
+
+.first-work-title:hover, .other-work-title:hover {
+    /* box-shadow: 10px 10px 10px var(--dark-gray), -10px -10px 10px var(--dark-gray); */
+    box-shadow: 13px 13px 10px var(--dark-gray);
+}
+
+.first-work-title:active, .other-work-title:active {
+    /* change to a percentage smaller than text */
+    font-size: smaller;
+}
+
+.first-work-title, .other-work-title {
+    text-align: center;
+    padding: 52px 0;
+}
+
+h3 {
+    font-size: 175%;
+    color: var(--purple);
 }
 
 .contacts {
     flex: 1 1 80%;
-    /* display: flex;
-    justify-content: space-evenly; */
 }
 
 .contacts ul {
