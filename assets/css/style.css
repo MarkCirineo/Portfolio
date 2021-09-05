@@ -58,8 +58,8 @@ h2 {
     font-size: 240%;
 }
 
-section {
-    /* margin: 15px 0; */
+main {
+    padding-right: 35px;
 }
 
 .about-me, .work, .contact-me {
@@ -69,17 +69,16 @@ section {
 
 }
 
-.about-me h2, .work h2 {
-    flex: 1 0 20%;
+.about-me h2, .work h2, .contact-me h2 {
+    flex: 1 0 15%;
     text-align: right;
     padding: 10px;
     color: var(--purple);
     border-right: solid var(--purple) 4px;
-    /* margin-right: 10px; */
 }
 
 .about-me p {
-    flex: 1 0 80%;
+    flex: 1 0 85%;
     padding: 10px 25px;
 }
 
@@ -87,7 +86,7 @@ section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex: 1 0 80%;
+    flex: 1 0 85%;
     /* background-color: var(--light-purple); */
     height: 500px;
 }
@@ -122,6 +121,31 @@ section {
     margin: 20px 20px 0 20px;
     background-color: var(--light-purple);
     height: 230px;
+}
+
+.contacts {
+    flex: 1 0 85%;
+}
+
+.contacts ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-me ul li {
+    display: inline;
+    padding: 0 5px;
+    color: var(--purple);
+    flex: 1 0 33.3333%;
+    height: 50px;
+    line-height: 55px;
+    font-size: 110%;
+    text-align: center;
+}
+
+.contact-me ul li p {
+    border-bottom: var(--purple) solid 2px;
+    display: inline;
 }
 
 
