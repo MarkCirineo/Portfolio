@@ -64,9 +64,22 @@ header nav ul li {
 
 figure {
     /* placeholder values */
-    background-color: gray;
+    /* background-color: gray; */
     width: 100%;
-    height: 150px;
+    height: 200px;
+    background-image: url("https://wallup.net/wp-content/uploads/2016/07/19/5321-purple-gray-simple-lines-748x421.jpg");
+    position: relative;
+}
+
+
+.subtitle h1 span {
+    position: absolute;
+    background-color: var(--light-purple);
+    margin: 0 auto;
+    display: inline-flex;
+    left: 80%;
+    top: 62%; 
+    padding: 4px 6px; 
 }
 
 h2 {
@@ -214,7 +227,11 @@ h3 {
     text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
+    .subtitle h1 span {
+        left: 74%;
+    }
+    
     .contact-me, .about-me, .work {
         flex-direction: column;
     }
@@ -240,7 +257,7 @@ h3 {
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .contact-me ul li {
         flex: 1 0 100%;
     }
@@ -255,5 +272,15 @@ h3 {
 
     h3 {
         line-height: 1.5;
+    }
+
+    .subtitle h1 span {
+        left: 65%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .subtitle h1 span {
+        left: 50%;
     }
 }
