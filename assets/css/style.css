@@ -124,9 +124,11 @@ main {
 }
 
 .first-item {
-    background-image: linear-gradient(to right, #c0a9cd, #c3acd8, #c5aee3, #c6b2ee, #c6b5fa);
+    /* background-image: linear-gradient(to right, #c0a9cd, #c3acd8, #c5aee3, #c6b2ee, #c6b5fa); */
     height: 325px;
     margin: 0 20px;
+    background-image: url("https://i.imgur.com/WYM8fWn.png");
+    opacity: 0.9;
 }
 
 .other-work {
@@ -141,13 +143,26 @@ main {
 
 .item {
     margin: 20px 20px 0 20px;
-    background-image: linear-gradient(to right, #c0a9cd, #c3acd8, #c5aee3, #c6b2ee, #c6b5fa);
+    /* background-image: linear-gradient(to right, #c0a9cd, #c3acd8, #c5aee3, #c6b2ee, #c6b5fa); */
+    background-size: cover;
+    opacity: 0.75;
     height: 305px;
 }
+
+#item-1 {
+    background-image: url("https://i.imgur.com/aQVFrsH.png");
+    
+}
+
+#item-2 {
+    background-image: url("https://i.imgur.com/ydbexIc.png");
+}
+
 
 .first-item, .item {
     border: 3px solid var(--electric-violet);
     transition: box-shadow .2s ease-in-out;
+    transition: opactity .2s ease-in-out;
 }
 
 .first-item a, .item a {
@@ -156,6 +171,7 @@ main {
 
 .first-item:hover, .item:hover {
     box-shadow: inset 0px 0px 10px var(--purple), 0 0 15px var(--purple);
+    opacity: 1;
 }
 
 .first-work-title {
