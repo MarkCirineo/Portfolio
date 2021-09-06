@@ -107,7 +107,8 @@ main {
 
 .about-me p {
     flex: 1 0 80%;
-    padding: 10px 25px;
+    padding: 10px 25px 12px 25px;
+    line-height: 1.25;
 }
 
 .work-items {
@@ -255,6 +256,9 @@ h3 {
         margin-top: 340px;
     }
 
+    .about-me p {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 700px) {
