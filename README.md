@@ -3,7 +3,7 @@
 ## Description
 This website is a portfolio of all my previous work. It serves as a place employers can view my previous work to assess my skills as a potential employee. It was built using HTML and CSS.
 
-## Table of Contents (Optional)
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
