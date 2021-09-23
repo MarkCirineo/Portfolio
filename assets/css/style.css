@@ -7,6 +7,11 @@
     --electric-violet: #8b16e3;
 }
 
+main {
+    height: calc(100% - 78px); 
+    /* subtract footer height from the above */
+}
+
 .a-header {
     color: white;
     text-decoration: none;
@@ -34,5 +39,15 @@
     padding: 2px 0 0 0;
     font-style: italic;
     font-weight: 500;
-    /* border-bottom: 1px var(--electric-violet) solid; */
+}
+
+.welcome {
+    font-style: italic;
+    color: var(--electric-violet);
+}
+
+.welcome h2 {
+    border-bottom: 2px var(--electric-violet) solid;
+    font-size: 40px;
+    /* background-color: var(--light-purple); */
 }
