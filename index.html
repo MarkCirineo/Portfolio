@@ -6,25 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Cirineo's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>
-            Mark Cirineo
-        </h1>
-        <nav>
-            <ul>
-                <li><a class="nav-link" href="#about-me">About Me</a></li>
-                <li><a class="nav-link" href="#work">Work</a></li>
-                <li><a class="nav-link" href="#contact-me">Contact Me</a></li>
-                <li><a class="nav-link" >Resume</a></li>
-            </ul>
-        </nav>
+    <header class="container-fluid bg-secondary text-white">
+        <div class="row align-items-center d-flex flex-wrap-reverse justify-content-lg-around justify-content-md-center text-center">
+            <div class="col-lg-3 col-md-5 header-name d-flex flex-column"><span class="name-span">Mark Cirineo</span> <span class="desc-span">Full-stack web developer</span></div>
+            <!-- <div class="col-lg-3 col-md-5 header-desc">Full-stack web developer</div> -->
+            <div class="col-lg-5 col-md-12 d-flex justify-content-around flex-nowrap header-links">
+                <a class="a-header">About Me</a>
+                <a class="a-header">Work</a>
+                <a class="a-header">Contact Me</a>
+                <a class="a-header">Resume</a>
+            </div>
+        </div>
     </header>
-
-<!-- TODO: CHANGE links to deployed application/website instead of github page -->
 
     <figure>
         <div class="subtitle">
@@ -52,11 +50,9 @@
                     <section class="first-item">
                         <a href="https://markcirineo.github.io/CSS-Snippet-Cheat-Sheet/">
                             <article class="first-work-title">
-                                
                                 <h3>
                                     CSS Snippet Cheat Sheet
                                 </h3>
-                            
                             </article>
                         </a>
                     </section>
