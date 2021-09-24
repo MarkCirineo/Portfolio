@@ -9,7 +9,6 @@
 
 main {
     height: calc(100% - 78px); 
-    /* subtract footer height from the above */
 }
 
 .a-header {
@@ -45,12 +44,17 @@ main {
 .welcome {
     font-style: italic;
     color: var(--purple);
+    margin-bottom: 12px;
 }
 
 .welcome h2 {
     border-bottom: 2px var(--purple) solid;
     font-size: 40px;
     /* background-color: var(--light-purple); */
+}
+
+.work h2 {
+    margin-bottom: 0;
 }
 
 .about-me h2, .work h2 {
@@ -71,9 +75,6 @@ main {
 .card:hover {
     width: 100%;
 }
-/* .card img {
-    height: 55%;
-} */
 
 .card-link-div {
     padding: 8px 16px 16px 16px;
