@@ -65,5 +65,16 @@ main {
 }
 
 .card {
+    width: 98%;
+}
+
+.card:hover {
     width: 100%;
+}
+/* .card img {
+    height: 55%;
+} */
+
+.card-link-div {
+    padding: 8px 16px 16px 16px;
 }
