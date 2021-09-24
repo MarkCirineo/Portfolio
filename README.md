@@ -6,7 +6,6 @@ This website is a portfolio of all my previous work. It serves as a place employ
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [How to Contribute](#how-to-contribute)
 - [Tests](#tests)
 ## Installation
@@ -15,8 +14,6 @@ N/A
 Visit the website here: https://markcirineo.github.io/Portfolio/
 
 ![website image](assets/images/website.png)
-## Credits
-resest.css taken from https://upenn.bootcampcontent.com/upenn-bootcamp/upenn-virt-fsf-ft-08-2021-u-lol
 ## How to Contribute
 You can contact me here: markcirineo22@gmail.com
 ## Tests
