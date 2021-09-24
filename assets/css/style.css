@@ -45,6 +45,7 @@ main {
     font-style: italic;
     color: var(--purple);
     margin-bottom: 12px;
+    margin-top: 7px;
 }
 
 .welcome h2 {
@@ -57,7 +58,7 @@ main {
     margin-bottom: 0;
 }
 
-.about-me h2, .work h2 {
+.about-me h2, .work h2, .contact-me h2 {
     text-align: center;
     color: var(--electric-violet);
     border-bottom: 1px var(--electric-violet) solid;
@@ -78,4 +79,17 @@ main {
 
 .card-link-div {
     padding: 8px 16px 16px 16px;
+}
+
+.contact-me {
+    margin: 15px 0 0 0;
+    padding-bottom: 15px;
+}
+
+.contact-me-links {
+    color: var(--electric-violet);
+    text-decoration: none;
+    /* border-bottom: 1px var(--light-purple) solid; */
+    padding: 0 3px;
+    font-size: 20px;
 }
