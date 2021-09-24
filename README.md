@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Description
-This website is a portfolio of all my previous work. It serves as a place employers can view my previous work to assess my skills as a potential employee. It was built using HTML and CSS.
+This website is a portfolio of all my previous work. It serves as a place employers can view my previous work to assess my skills as a potential employee, as well as how to contact me. It was built using HTML, CSS and Bootstrap.
 
 ## Table of Contents
 - [Installation](#installation)
